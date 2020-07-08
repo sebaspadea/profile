@@ -27,6 +27,7 @@ h1, h2 {
   width: 150px; 
   height: 150px;
   margin: 12px;
+  object-fit: cover;
 }
 
 .list-inline a {
@@ -66,6 +67,7 @@ h1, h2 {
   width: 100px; 
   height: 100px;
   margin: 12px;
+  object-fit: cover;
 }
 .list-inline a {
     display: inline-block;
@@ -97,6 +99,7 @@ h1, h2 {
   width: 100px; 
   height: 100px;
   margin: 12px;
+  object-fit: cover;
 }
 .list-inline a {
     display: inline-block;

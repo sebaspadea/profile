@@ -42,6 +42,12 @@ h1, h2 {
     margin: 8px;
 }
 
+.img-circle {
+  border-radius: 50%;
+  width: 160px; 
+  height: 160px;
+  object-fit: cover;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -80,6 +86,12 @@ h1, h2 {
     font-size: 38px;
     margin: 8px;
 }
+.img-circle {
+  border-radius: 50%;
+  width: 140px; 
+  height: 140px;
+  object-fit: cover;
+}
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -105,6 +117,12 @@ h1, h2 {
     display: inline-block;
     font-size: 42px;
     margin: 8px;
+}
+.img-circle {
+  border-radius: 50%;
+  width: 140px; 
+  height: 140px;
+  object-fit: cover;
 }
 
 .list-inline {
@@ -147,11 +165,6 @@ li a:hover{
     color: black;
 }
 
-.img-circle {
-  border-radius: 50%;
-  width: 160px; 
-  height: 160px;
-}
 .text-center {
   text-align: center;
 }
